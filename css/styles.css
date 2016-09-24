@@ -1,0 +1,276 @@
+@charset "UTF-8";
+body {
+	font: 100% Georgia, Times, serif;
+	background: #FFFFFF;
+	margin: 0 auto;
+	padding: 1em;
+	text-align: center;
+	color: #000000;
+}
+#container {
+	width: 780px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	border: 0px solid #000000;
+	text-align: left;
+}
+#header { 
+	background: #FFFFFF;     
+	padding: 0;
+	margin: 0;
+	border-top: 2px solid #E7D19A;
+	border-bottom: 2px solid #E7D19A;
+	height: 80px;
+}            
+.stanfordImage a, .stanfordImage a:hover, .stanfordImage a:visited {
+	text-decoration: none;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+}
+.stanfordImage {
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+.dept {
+	float: left;
+	padding: 0;
+	margin: 0;
+	margin-top: 3px;
+}
+.dept a, .dept a:hover, .dept a:visited {
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	border: 0;
+	padding: 0;
+} 
+
+#mainContent {
+	clear:both;
+	padding: 0 20px;
+	background: url(../images/design/manila.gif) repeat top right;
+	border: 1px solid #E7D19A;
+}
+
+
+/**************************************************/
+/********************* NAVBAR *********************/
+
+#navbar {
+	clear: both;
+ 	float: right;
+	padding: 15px 0px 0px 5%;
+	margin: 0;
+	list-style: none;
+	display:block;
+}
+#navbar li {
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	float: left;
+	font-size: 80%;
+	padding: 0;
+	margin: 0 0 -1px 0;
+	text-align: center;
+}
+#navbar a, #navbar a:visited {
+	float: left;
+ 	margin: 0 0 0 10px;
+	padding: 5px 0 5px 0;
+	width: 150px;
+	text-decoration: none;
+ 	background: url(../images/design/manila-dark.gif) repeat top right;
+	border: 1px solid #E7D19A;
+	border-bottom: none;
+	color: #000000;
+}
+#navbar a:hover {
+	text-decoration: none;
+ 	border: 1px solid #E7D19A;
+	border-bottom: none;
+ 	background: url(../images/design/manila.gif) repeat top right;
+	color: #000000;
+}
+#navbar a.active {
+	text-decoration: none;
+	border: 1px solid #E7D19A;
+	border-bottom: none;
+ 	background: url(../images/design/manila.gif) repeat top right;
+	color: #000000;
+}
+
+/********************************************************************/
+/**************************** COURSE INFO ***************************/
+
+table.courseInfo th {
+	padding-right: 10px;
+	vertical-align: top;	
+}
+
+/********************************************************************/
+/****************************** FOOTER ******************************/ 
+
+#footer { 
+	padding: 0 10px 0 20px;
+	border-top: 0px solid #E7D19A;
+	border-bottom: 0px solid #E7D19A;
+	background:#FFFFFF;
+	clear: both;
+  
+} 
+#footer p {
+	margin: 0;
+	padding: 10px 0;
+	font-size: small;
+	text-align: center;   
+}
+#footer a {
+	color: #005758;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #FFFFFF;
+	background-color: #005758;
+	text-decoration: none;
+}   
+
+.courseTitle {
+	clear: both;
+	margin: 10px 0 0 20px;
+	font: 140% Arial;
+	font-weight: bold;
+	color: #005758;
+}
+
+a {
+	color: #005758;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	background-color: #005758;
+	text-decoration: none;
+}
+
+h1{
+	font-size: 140%;
+}
+h2{
+	font-size: 120%;
+}
+h3{
+	font-size: 110%;
+}
+
+hr {
+	color: #005758;
+	background-color: #005758;
+	width: 50%;
+	text-align: center;
+	height: 2px;
+	border:0;
+}
+
+/********************************************************************/
+/***************************** SCHEDULE *****************************/
+
+.schedule {
+	width: 100%;
+	margin: 15px 0 5px 0;
+}
+.schedule td {
+	vertical-align: top;
+	text-align: left;
+	padding: 4px;
+
+}
+.colHeader {
+	text-align: center;
+	border: none;
+}
+.day {
+	font-weight: bold;
+	border: none;
+	padding: 0;
+	text-align: right;
+}
+.holiday {
+	text-align: center;
+	font-weight: bold;
+}
+
+.plan, .assignment, .reading {
+	border: 1px solid black;
+	font-weight: normal;
+	width: 33%;
+	height: 80px;
+}
+
+.schedule ol, .schedule ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.schedule li {
+    padding: 5px 0;
+    line-height: 24px;
+    
+}
+
+.schedule hr {
+    height: 0px;
+    noshade: noshade
+}
+
+ /*******************************************************************/
+/******************************* MISC *******************************/
+
+li, p { 
+	line-height: 24px;
+	padding: 5px 0 px;
+}
+
+td.field {
+	vertical-align: top;
+}
+
+.floatLeft { 
+	float: left;
+	padding: 10px 0 0 0;
+	margin: 0;
+}
+
+.floatRight {
+	float: right;
+	padding: 10px 0 0 0;
+	margin: 0;
+}
+
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+.dropShadow {
+	display:inline;
+	float: left;
+	background: url(../images/design/shadowAlpha.png) no-repeat right bottom !important;
+	background: url(../images/design/shadow.gif) no-repeat bottom right;
+	margin: 6px 0 0 6px !important;
+  margin: 6px 0 0 1px;
+}
+.dropShadow img {
+  display: block;
+  position: relative;
+  background-color: #ffffff;
+  border: 0px solid #ffffff;
+  margin: -6px 6px 6px -6px;
+	padding: 0;
+}

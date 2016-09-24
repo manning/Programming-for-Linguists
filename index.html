@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+<script src="http://web.stanford.edu/class/linguist278/include/2014.js"></script>
+
+<link rel="stylesheet" type="text/css" href="http://web.stanford.edu/class/linguist278/include/2014.css">
+<link rel="stylesheet" type="text/css" href="http://web.stanford.edu/class/linguist278/include/news.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content='Stanford University Linguistics 278 is
+      an introduction to Python aimed at linguists and other humanities
+      and textual social science oriented students'>
+<title>Linguistics 278 Programming for Linguists (and fellow travellers)</title>
+
+<script type="text/x-handlebars" id="nav-template">
+  <h1><a href="http://web.stanford.edu/class/linguist278/">Linguistics 278 &ndash; Programming for Linguists (and fellow travellers)</a></h1> 
+  <nav>
+    <ul>
+      <li class="{{#if Home}}home{{/if}}"><a href="http://web.stanford.edu/class/linguist278/">home</a></li>
+      <li class="{{#if Description}}description{{/if}}"><a href="http://web.stanford.edu/class/linguist278/index-cpotts.html">description</a></li>
+      <li class="{{#if Piazza}}piazza{{/if}}"><a href="http://web.stanford.edu/class/linguist278/piazza">piazza</a></li>
+      <li class="{{#if Resources}}resources{{/if}}"><a href="http://web.stanford.edu/class/linguist278/resources.html">resources</a></li>
+      <li class="{{#if FAQ}}faq{{/if}}"><a href="http://web.stanford.edu/class/linguist278/faq">faq</a></li>
+    </ul>
+  </nav>
+</script>
+</head>
+  <body id=Home><header></header>
+    <script>
+      $("header").html(Handlebars.compile($("#nav-template").html())({Home:true}));
+    </script>
+
+<article id=portrait class=col0_2><section><img src="http://web.stanford.edu/class/linguist278/images/Christopher_Manning_027_484x440.jpg" alt="Chris" id=chris /></section><section id="talks">
+   <h2>upcoming</h2>
+<ul>
+   <li><div class=day>26 Sep 2017</div>
+      <span class=place><wbr><nobr><a href="https://campus-map.stanford.edu/?id=06-020&lat=37.42735276&lng=-122.1651294&zoom=17&srch=encina%20west%20202">Encina
+      West 202</a> (Serra St, past Hoover Tower; accessible entrance off
+      Galvez mall)</nobr></span>
+      <div class=title>First class!</div>
+      </a></li>
+
+</ul>
+</section>
+</article>
+<article id=hero><span><img src="http://web.stanford.edu/class/linguist278/images/python-xkcd-280-1.png" width="460" height="280" style="opacity: 0.0;" /><figure class=active><a href="https://xkcd.com/353/"><img src="http://web.stanford.edu/class/linguist278/images/python-xkcd-280-1.png" /></figure><figure><a href="https://xkcd.com/353/"><img src="http://web.stanford.edu/class/linguist278/images/python-xkcd-280-2.png" /></figure><figure><a href="http://web.stanford.edu/class/linguist278/"><img src="http://web.stanford.edu/class/linguist278/images/thboegel-280.jpg" /></figure><figure><a href="https://www.python.org/"><img src="http://web.stanford.edu/class/linguist278/images/hello-world-280.png" /></a></figure></span><script>$(function () { setInterval('slideSwitch()', 9000); });</script></article>
+
+<article class=col1_2>
+<p>
+This class is aimed at people who are studying linguistics, the
+humanities, or textually based social science topics,  who have never
+coded before in their life, and realize that they could be more
+productive in a lot of their research projects if they could code a
+little. We'll also spend quite a bit of time looking at libraries and
+tools that will allow you to get things done. It's not intended to be a
+general introduction to computer science &ndash; we won't spend time on
+learning basic algorithms like sorting or data structures like hash
+tables. Every modern major programming language comes with built in
+libraries for these key things. They were written by people who know
+what they're doing, and we'll just learn to use them effectively.
+</p>
+
+<p>
+Programming is a craft. No one ever became good at a craft by listening
+to someone talk or reading a book. It can be a helpful starting point to
+listen to someone talk or to read a book. But you become good at a craft
+by practicing it. We'll spend time in class practicing, but you'll only
+become good at your craft if you also practice in your own time.
+</p>
+
+<p>
+</p>
+
+</article>
+<article class=col3_2>
+<p>
+This class will be taught using Python <b>3</b>.
+</p>
+</article>
+<div style="clear:both">&nbsp;</div>
+<div id=address class="col0" style="margin-bottom:20px" ><a href="http://twitter.com/chrmanning"><img src="http://web.stanford.edu/class/linguist278/images/twitter.png" style="width:auto;"><wbr><nobr>@chrmanning</nobr></a></div>
+<footer><div class="col2 foot"><nobr>manning@cs.stanford.edu</nobr><br><a href=http://designlab.ucsd.edu/visit><nobr>Gates&nbsp;248</nobr><br><nobr>Stanford CA 94305-9020</nobr></a></div></footer>
+</body>
+</html>
